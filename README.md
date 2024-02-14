@@ -1,6 +1,7 @@
-#Git Commands and Notes
+# Git Commands and Notes
 
-##Configuring Git
+## Configuring Git
+
 After installing Git, you can also configure it - most importantly, you can set a username and email address that will be connected to all your code snapshots.
 
 This can be done via:
@@ -8,9 +9,9 @@ This can be done via:
     git config --global user.name "your-username"
     git config --global user.email "your-email"
 
-You can learn more about Git's configuration options here: https://git-scm.com/docs/git-config
+You can learn more about Git's configuration options here: <https://git-scm.com/docs/git-config>
 
-##Commands:
+## Commands
 
     git init -> to initialize the local repo (creates metadata in .git folder)
     git add <file_name>  -> to stage for next commit
@@ -27,7 +28,7 @@ You can learn more about Git's configuration options here: https://git-scm.com/d
     git remote -> to list remote alias
     git remote get-url origin -> to list the url for remote repo
 
-##Undo Commits:
+## Undo Commits
 
     git revert <id>  -> keeps history
     git reset <id>  -> deletes history 
