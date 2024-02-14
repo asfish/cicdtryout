@@ -1,4 +1,6 @@
-Configuring Git
+#Git Commands and Notes
+
+##Configuring Git
 After installing Git, you can also configure it - most importantly, you can set a username and email address that will be connected to all your code snapshots.
 
 This can be done via:
