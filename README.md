@@ -11,6 +11,7 @@ This can be done via:
 You can learn more about Git's configuration options here: https://git-scm.com/docs/git-config
 
 ##Commands:
+
     git init -> to initialize the local repo (creates metadata in .git folder)
     git add <file_name>  -> to stage for next commit
     git branch <branch-name> -> to create new branch
@@ -27,5 +28,6 @@ You can learn more about Git's configuration options here: https://git-scm.com/d
     git remote get-url origin -> to list the url for remote repo
 
 ##Undo Commits:
+
     git revert <id>  -> keeps history
     git reset <id>  -> deletes history 
