@@ -7,7 +7,6 @@ on:
   workflow_run: 
     workflows: [Lint Code Base]
     types: completed
-  push:
     branches: [ "main" ]
   #pull_request:
   #  branches: [ "main" ]
