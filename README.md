@@ -6,9 +6,12 @@ Here’s a cleaned up and better-formatted version of your README.md. I’ve imp
 ## Configuring Git
 
 After installing Git, you should configure your username and email address—these will be attached to all your commits.
-
+- global username configuration:
 ```sh
 git config --global user.name "your-username"
+```
+- global email configuration:
+```sh
 git config --global user.email "your-email"
 ```
 
@@ -88,5 +91,3 @@ Learn more: [Git Configuration Options](https://git-scm.com/docs/git-config)
   git reset <id>
   ```
 ```
-
-Let me know if you want any additional formatting or information added!
