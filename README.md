@@ -10,6 +10,7 @@ After installing Git, you should configure your username and email address—the
 ```sh
 git config --global user.name "your-username"
 ```
+
 - global email configuration:
 ```sh
 git config --global user.email "your-email"
