@@ -1,11 +1,9 @@
-Here’s a cleaned up and better-formatted version of your README.md. I’ve improved headings, code blocks, and bullet formatting for readability:
-
-```markdown
 # Git Commands and Notes
 
 ## Configuring Git
 
 After installing Git, you should configure your username and email address—these will be attached to all your commits.
+
 
 - global username configuration:
 ```sh
