@@ -1,49 +1,92 @@
+Here’s a cleaned up and better-formatted version of your README.md. I’ve improved headings, code blocks, and bullet formatting for readability:
+
+```markdown
 # Git Commands and Notes
 
 ## Configuring Git
 
-After installing Git, you can also configure it - most importantly, you can set a username and email address that will be connected to all your code snapshots.
+After installing Git, you should configure your username and email address—these will be attached to all your commits.
 
-This can be done via:
+```sh
+git config --global user.name "your-username"
+git config --global user.email "your-email"
+```
 
-   * git config --global user.name "your-username"
-   * git config --global user.email "your-email"
+Learn more: [Git Configuration Options](https://git-scm.com/docs/git-config)
 
-You can learn more about Git's configuration options here: <https://git-scm.com/docs/git-config>
+---
 
-## Commands
+## Common Git Commands
 
-    * git init -> to initialize the local repo (creates metadata in .git folder)
+- Initialize a local repository:
+  ```sh
+  git init
+  ```
+- Stage a file for the next commit:
+  ```sh
+  git add <file_name>
+  ```
+- Create a new branch:
+  ```sh
+  git branch <branch-name>
+  ```
+- Create and switch to a new branch:
+  ```sh
+  git checkout -b <branch-name>
+  ```
+- List all branches:
+  ```sh
+  git branch
+  ```
+- Switch between branches or commits:
+  ```sh
+  git checkout <branch-name>
+  ```
+- Delete a branch permanently:
+  ```sh
+  git branch -D <branch-name>
+  ```
+- Merge a branch into the current branch:
+  ```sh
+  git merge <branch-name>
+  ```
+- Add a remote repository:
+  ```sh
+  git remote add origin <url-to-remote-repo>
+  ```
+- Push a branch to origin:
+  ```sh
+  git push origin <branch-name>
+  ```
+- Set or update the remote repository URL:
+  ```sh
+  git remote set-url origin https://user-name@<url.git>
+  ```
+- Pull a branch from origin:
+  ```sh
+  git pull origin <branch-name>
+  ```
+- List remote aliases:
+  ```sh
+  git remote
+  ```
+- Show the URL for the remote repo:
+  ```sh
+  git remote get-url origin
+  ```
 
-    * git add <file_name>  -> to stage for next commit
+---
 
-    * git branch <branch-name> -> to create new branch
+## Undoing Commits
 
-    * git checkout -b <branch-name> -> to create new branch and check it out automatically 
+- Revert a commit (keeps history):
+  ```sh
+  git revert <id>
+  ```
+- Reset to a commit (removes history):
+  ```sh
+  git reset <id>
+  ```
+```
 
-    * git branch -> to list available branches
-
-    * git checkout to switch between branches or commits
-
-    * git branch -D <branch-name> -> to delete a branch permanently
-
-    * git merge <branch-name>  -> to merge branch-name to current branch
-
-    * git remote add origin <url-to-remote-repo> -> to add remote git repository
-
-    * git push origin <branch-name> -> to push the branch to origin
-
-    * git remote set-url origin https://user-name@<url.git> -> to setup access to push code
-
-    * git pull origin <branch-name> -> to pull down remote branch
-
-    * git remote -> to list remote alias
-
-    * git remote get-url origin -> to list the url for remote repo
-
-
-## Undo Commits
-
-    * git revert <id>  -> keeps history
-    
-    * git reset <id>  -> deletes history 
+Let me know if you want any additional formatting or information added!
